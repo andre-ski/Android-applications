@@ -1,4 +1,4 @@
-# Backlog
+This details what my partner (Hamish Elliot) and I achieved for this project
 
 # Game engine
 
