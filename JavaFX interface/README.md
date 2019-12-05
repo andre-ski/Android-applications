@@ -1,9 +1,4 @@
 ﻿COMPX202-19B / COMPX242-19B Assignment 2
-========================================
-
-Due on **Friday, 26th July at 11:30pm**.
-
-
 Experimenting with a big Java Package – JavaFX
 ==============================================
 
@@ -20,34 +15,7 @@ This assignment has 3 parts:
  2. Extending or rewriting the sample program to layout a form in JavaFX.
  3. Adding callbacks to make your program interactive.
 
-**You will update this document as part of your work.**
-
-
-Preamble
-========
-
-1. Fork this repository using the button at the top of the project page.
-2. Make sure that the visibility of your project is private. (Settings > expand Permissions > Project visibility: Private; Save changes).  *Note: Class teachers and tutors will still have read access to
-your project for marking purposes.*
-3. Clone the new repository to your computer using Git.  Develop and test the program on your computer 
-as described below.
-4. Remember to commit and push regularly as you work on the project!  Good Git usage, with regular commits having useful messages, will be required in the grading.
-5. There are questions asked for each task and locations for answering each question in this document (after the task descriptions).  You should answer them in your copy of this document, which will be the README for your version of the project.
-
-
-Task 1 (Note: instruction 1 updated on Saturday 20th July)
-==========================================================
-
-1. The project includes a sample JavaFX program - called A2.java.  Make sure that your clone of the repository includes A2.java.  Try compiling and running it. Compiling a
-program in the lab requires compile and run commands in which you tell the system the names and locations of the JavaFX libraries.  This is the compile command:  
-`javac --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls A2.java`  
-and this is the run command:  
-`java --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls A2`  
-Find out what the program does when you enter text into the text boxes. Answer Question 1 (below).
-2. In the same way as demonstrated in class, experiment with A2.java.  Make changes to the program.  Run it and see what effects your changes have. You should focus on features not seen in class.  To demonstrate your work, answer Question 2.  Your experiments should be different from those tried in class and should be distinct, not be minor variations on a theme.
-3. Three new JavaFX classes used in A2.java are:  HBox, Text and TextField.  Question 3 asks you to describe them.
-
-Task 1 Questions
+Task Questions
 ----------------
 
 ```
@@ -82,40 +50,9 @@ This is how the form is organised into vertical / horizontal labels and textfiel
 Text: This class defines a node that can contain text, dates, numbers etc.
 
 TextField: This class provides a small textbox/text field in a graphical manner for the user to enter text or for the application to output text into. 
-
 ```
 
-Task 2
-======
-
-In this section you will extend the A2.java program to display a form that looks like this.
-
-![Screen shot of required program with no data entered](A2ProgramEmpty.png)
-
-The idea is that the form allows a user to enter up to 3 items that might be purchased in a shop.  For each item the user can enter the name of the item, the number being purchased and the unit price(value).  In Task 3 it will be extended to continually update labels at the right to display total price for each item and at the bottom the total price for all items. Your task here is to decide on a layout using VBox and HBox.  A good solution will make use of font size and other parameters give a good appearance.  You can assume that none of the prices displayed are never greater than $999.
-
-
-Task 2 Questions
-----------------
-
-```
-There are no questions for this section.
-```
-
-Task 3
-======
-
-Using callbacks on key release for each text box: update your program to calculate item prices and final
-totals.  (Update the display on every key entry to the program).  If values entered are not valid numbers,
-don't display prices.
-
-
-The screen shot shows the program with some data entered.
-
-![Screen shot of program running](A2ProgramFilled.png)
-
-
-Task 3 Questions
+Task Questions
 ----------------
 
 ```
@@ -134,19 +71,3 @@ text field with your mouse and edit it by "copy/paste/delete" etc, the applicati
 a key release and there would need to be a MousInputListener method as well the KeyInputListener to make sure the application could always respond.
 
 ```
-
-Submission
-==========
-
-Your finished project should be in your GitLab repository.  If you have trouble with the repository you may make a zipped copy of your project files and submit that through Moodle.
-
-
-Grading
-=======
-
-| Weighting | Allocated to |
-|:----------:|------|
-| 20% | Correct repository usage and settings |
-| 20% | Task 1 questions and modifications |
-| 30% | Task 2 code |
-| 30% | Task 3 code and questions |
