@@ -5,14 +5,7 @@ The Observer Pattern
 
 The main purpose of this assignment is to experiment with the Observer
 Pattern. JavaFX includes several versions of it, but for this
-assignment we are making our own.  This repository includes an
-IntelliJ project as a starter program.  It is configured to use Java 8
-so as to avoid difficulties with the use of JavaFX in later versions.  If 
-you have another version of the Java SDK set up at home, you can download Java 8
-(which is the name for version 1.8).  Java is happy to have multiple versions
-on one machine.  You may find that you have to go into File/Project Structure
-in the assignment project and reset the version to 1.8. Also make sure that 
-the language level (lower in the same dialog) is set to 8.
+assignment we are making our own. 
 
 15. Test your program to make sure that the area and perimeter are
     displayed correctly.  Explain how you tested your program in the 
